@@ -68,7 +68,7 @@ public class Main {
         System.out.println("Задача 9 ");
         int total = 29000;
         int month1 = 0;
-        for (month1=0; month1<=12; month1=month1+1 ) {
+        for (int iI=0; iI <= 12; iI=iI+1 ) {
             total = (total/100)+total+total ;
             System.out.println("Месяц "+month1+" сумма накоплений равна "+total+" рублей");
         }
