@@ -70,7 +70,7 @@ public class Main {
         int month1 = 0;
         for (int iI=0; iI <= 12; iI=iI+1 ) {
             total = (total/100)+total+total ;
-            System.out.println("Месяц "+month1+" сумма накоплений равна "+total+" рублей");
+            System.out.println("Месяц "+iI+" сумма накоплений равна "+total+" рублей");
         }
     }
 }
